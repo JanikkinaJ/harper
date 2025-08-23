@@ -1053,7 +1053,8 @@ pub fn lint_group() -> LintGroup {
             ["todo"],
             ["to-do"],
             "Hyphenate `to-do`.",
-            "Ensures `to-do` is correctly hyphenated."
+            "Ensures `to-do` is correctly hyphenated.",
+            LintKind::Spelling
         ),
         "ToTheMannerBorn" => (
             ["to the manor born"],
